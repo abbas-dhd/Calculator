@@ -82,3 +82,9 @@ main {
     color: hsl(213, 38%, 80%);
     background-color: hsl(213, 42%, 35%);
 }
+
+
+#ac:hover,#c:hover{
+    background-color: aliceblue;
+    color: hsl(213, 42%, 35%);
+}
