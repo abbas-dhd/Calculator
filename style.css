@@ -1,4 +1,3 @@
-
 *,
 *::before,
 *::after {
@@ -15,29 +14,23 @@ html{
 body{
     width: 100%;
     height: 100%;
-    
-    /* background-image: linear-gradient(#F5F7FA, #B8C6DB);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
-  
     background-color: #B8C6DB;
 }
 header{
     width: fit-content;
     margin: auto;
+    padding-top: 0.5rem;
     padding-bottom: 1rem;
     color: hsl(213, 42%, 25%);
 }
 main {
     width: max-content;
-    /* height: 100%; */
     margin: auto;
 }
 
 .screen{
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
 }
 .past{
     width: 100%;
@@ -78,11 +71,9 @@ main {
 
 #c{
     grid-column: 3/5;
-    /* background-color: rgb(125, 158, 197); */
     color: hsl(213, 38%, 80%);
     background-color: hsl(213, 42%, 35%);
 }
-
 
 #ac:hover,#c:hover{
     background-color: aliceblue;
